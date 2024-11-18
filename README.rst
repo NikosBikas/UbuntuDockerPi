@@ -57,7 +57,7 @@ You can build it assuming you already have docker and docker-compose installed i
     
     git clone https://github.com/guysoft/UbuntuDockerPi.git
     cd UbuntuDockerPi/src/image
-    wget -c --trust-server-names 'https://cdimage.ubuntu.com/releases/24.04.1/release/ubuntu-24.04.1-preinstalled-desktop-arm64+raspi.img.xz'
+    wget -c --trust-server-names 'https://cdimage.ubuntu.com/releases/24.04.1/release/ubuntu-24.04.1-preinstalled-server-arm64+raspi.img.xz'
     cd ..
     sudo docker-compose up -d
     sudo docker exec -it ubuntudockerpi-build build
